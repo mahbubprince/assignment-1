@@ -78,3 +78,112 @@ nav button {
     margin-top: 37px;
     margin-bottom: 150px;
 }
+
+/* action style */
+.actions {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-top: 116px;
+    margin-right: 150px;
+}
+
+.first-coloum h3 {
+    font-size: 42px;
+    font-weight: 800;
+    margin-bottom: 23px;
+}
+
+.first-coloum p {
+    font-size: 24px;
+    color: #252432;
+    margin-bottom: 23px;
+}
+
+.first-coloum button {
+    height: 48px;
+    width: 229px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.actions img {
+    height: 328px;
+    width: 403px;
+    border-radius: 48px;
+    margin-bottom: 116px;
+}
+
+/* Productive-Users-Section style */
+.Productive-Users-Section h2 {
+    font-size: 38px;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 50px;
+}
+
+.success {
+    display: flex;
+    justify-content: space-around;
+}
+
+.success h3 {
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.border {
+    height: 306px;
+    width: 1140px;
+    border-radius: 25px;
+    background-color: rgba(78, 71, 255, 0.1);
+    margin: auto;
+}
+
+.success p {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* CHALLENGES style */
+.CHALLENGES h2 {
+    font-size: 42px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 50px;
+}
+
+.challenge {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.loved-by-desingners {
+    height: 29px;
+    width: 221px;
+    padding-top: 24px;
+    padding-bottom: 8px;
+}
+
+.Reviewer-Image {
+    display: flex;
+}
+
+.img-last {
+    border-radius: 999px;
+}
+
+.cha-des {
+    margin-bottom: 24px;
+}
+
+.card {
+    border-radius: 15px;
+    background-color: rgb(245, 247, 252);
+    height: 243px;
+    width: 366px;
+    border-right: 20px;
+}
