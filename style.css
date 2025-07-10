@@ -1,0 +1,9 @@
+/* shared styles */
+.primary-color {
+    color: #4E47FF;
+
+}
+
+nav ul {
+    display: flex;
+}
