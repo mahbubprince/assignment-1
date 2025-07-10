@@ -1,9 +1,80 @@
-/* shared styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.raleway-primary {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.inter-primary {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+header {
+    background-image: url(B12A01-landing-launchpad/Assets/Hero-bg.png);
+}
+
+/* shared styles  */
 .primary-color {
     color: #4E47FF;
 
 }
 
+.primary-color-for-btn {
+    background-color: #4E47FF;
+    color: white;
+}
+
+/* nav style */
 nav ul {
     display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 51px;
+}
+
+.logo {
+    font-size: 34px;
+    font-weight: 900;
+}
+
+nav button {
+    height: 48px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    border-style: none;
+    width: 132px;
+}
+
+/* banner style */
+.banner h1 {
+    font-size: 65px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 310px;
+    color: #252432;
+}
+
+.Stay-Focused-btn {
+    font-size: 16px;
+    font-weight: 600;
+    margin: auto;
+    width: 174px;
+}
+
+.Stay-Focused-btn button {
+    height: 48px;
+    border-style: none;
+    border-radius: 10px;
+    padding: 12px 36px;
+    margin-top: 37px;
+    margin-bottom: 150px;
 }
