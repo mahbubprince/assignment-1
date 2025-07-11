@@ -31,7 +31,7 @@ header {
 }
 
 /* nav style */
-nav ul {
+.nav nav ul {
     display: flex;
     list-style: none;
     justify-content: space-between;
@@ -39,9 +39,12 @@ nav ul {
     margin-right: 150px;
     padding-top: 51px;
 }
-nav li{  margin-left: 150px;
-    margin-right: 150px;
-    padding-top: 51px;}
+
+.nav nav li {
+
+    padding-top: 51px;
+}
+
 .logo {
     font-size: 34px;
     font-weight: 900;
@@ -54,6 +57,11 @@ nav button {
     border-radius: 10px;
     border-style: none;
     width: 132px;
+}
+
+.nav button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
 }
 
 /* banner style */
@@ -79,6 +87,11 @@ nav button {
     padding: 12px 36px;
     margin-top: 37px;
     margin-bottom: 150px;
+}
+
+.Stay-Focused-btn button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
 }
 
 /* action style */
@@ -107,6 +120,11 @@ nav button {
     width: 229px;
     border-radius: 10px;
     border-style: none;
+}
+
+.first-coloum button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
 }
 
 .actions img {
@@ -178,7 +196,11 @@ nav button {
 .img-last {
     border-radius: 999px;
 }
-.card h3{ font-size: 24px; }
+
+.card h3 {
+    font-size: 24px;
+}
+
 .cha-des {
     margin-bottom: 24px;
 }
@@ -239,6 +261,11 @@ textarea {
     font-size: 16px;
 }
 
+.touch-sec button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
 /* footer section style */
 footer h1 {
     font-size: 100px;
@@ -270,10 +297,15 @@ nav ul {
     display: flex;
     justify-content: center;
     gap: 30px;
+    list-style: none;
 }
 
 nav li a {
     font-size: 16px;
     font-weight: 500;
     color: rgba(137, 135, 161, 1);
-}nav li a:hover{ text-decoration: underline;}
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
